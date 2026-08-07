@@ -49,6 +49,20 @@ const arbres = [
     nom_commun : "tulipier de Virginie"
   },
   {
+    famille : "magnoliaceae",
+    genre : "magnolia",
+    espece : "grandiflora",
+    cultivar : "-",
+    nom_commun : "magnolia à grandes fleurs, magnolier"
+  },
+  {
+    famille : "fabaceae",
+    genre : "robinia",
+    espece : "pseudoacacia",
+    cultivar : "umbraculifera",
+    nom_commun : "robinier faux-acacia, acacia boule"
+  },
+  {
     famille : "malvaceae",
     genre : "tilia",
     espece : "platyphyllos",

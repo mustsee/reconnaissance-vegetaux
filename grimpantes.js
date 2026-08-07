@@ -7,6 +7,13 @@ const grimpantes = [
     nom_commun : "hortensia grimpant"
   },
   {
+    famille : "passifloraceae",
+    genre : "passiflora",
+    espece : "caerula",
+    cultivar : "-",
+    nom_commun : "fleur de la passion, passiflore bleue"
+  },
+  {
     famille : "apocynaceae",
     genre : "trachelospermum",
     espece : "jasminoides",

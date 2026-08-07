@@ -42,6 +42,13 @@ const arbustes = [
     nom_commun : "lavande vraie, lavande officinale"
   },
   {
+    famille : "lamiaceae",
+    genre : "perovskia",
+    espece : "atriplicifolia",
+    cultivar : "-",
+    nom_commun : "sauge russe, sauge d'Afghanistan"
+  },
+  {
     famille : "hydrangeaceae",
     genre : "philadelphus",
     espece : "x",
