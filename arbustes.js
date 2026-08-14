@@ -25,7 +25,8 @@ const arbustes = [
     genre : "hydrangea",
     espece : "macrophylla",
     cultivar : "-",
-    nom_commun : "hortensia à grandes feuilles"
+    nom_commun : "hortensia à grandes feuilles",
+    page : "hydrangea.html"
   },
   {
     famille : "lauraceae",
@@ -76,6 +77,7 @@ arbustes.forEach((arbuste, index) => {
         <td>${arbuste.espece}</td>
         <td>${arbuste.cultivar}</td>
         <td>${arbuste.nom_commun}</td>
+        <td>${arbuste.page ? `<a href="./pages/arbustes/${arbuste.page}">lien</a>` : '-'} </td>
     `;
 
     tbodyArbustes.appendChild(row);

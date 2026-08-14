@@ -4,14 +4,15 @@ const vivaces = [
     genre : "agapanthus",
     espece : "africanus, umbellatus",
     cultivar : "-",
-    nom_commun : "agapanthe"
+    nom_commun : "agapanthe",
   },
   {
     famille : "caprifoliaceae",
     genre : "centranthus",
     espece : "ruber",
     cultivar : "-",
-    nom_commun : "valériane rouge, centranthe rouge, lilas d'Espagne"
+    nom_commun : "valériane rouge, centranthe rouge, lilas d'Espagne",
+    page : "centranthus-ruber.html"
   },
   {
     famille : "euphorbiaceae",
@@ -32,7 +33,8 @@ const vivaces = [
     genre : "geranium",
     espece : "nombreuses espèces",
     cultivar : "-",
-    nom_commun : "géranium vivace"
+    nom_commun : "géranium vivace",
+    page : "geranium.html"
   },
   {
     famille : "asparagaceae",
@@ -62,6 +64,8 @@ const tbodyVivaces = document.querySelector("#vivaces tbody");
 vivaces.forEach((vivace, index) => {
     const row = document.createElement("tr");
 
+
+
     row.innerHTML = `
         <td>${index + 1}</td>
         <td>${vivace.famille}</td>
@@ -69,6 +73,7 @@ vivaces.forEach((vivace, index) => {
         <td>${vivace.espece}</td>
         <td>${vivace.cultivar}</td>
         <td>${vivace.nom_commun}</td>
+        <td>${vivace.page ? `<a href="./pages/vivaces/${vivace.page}">lien</a>` : '-'} </td>
     `;
 
     tbodyVivaces.appendChild(row);
